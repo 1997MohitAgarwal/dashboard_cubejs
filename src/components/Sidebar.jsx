@@ -17,7 +17,7 @@ export default function Sidebar() {
   const [channelsExpanded, setChannelsExpanded] = useState(false);
 
   return (
-    <div className="flex h-screen border-l-4 border-yellow-400">
+    <div className="flex h-screen">
       {/* Sidebar Container */}
       <aside className="flex w-72 bg-white">
         {/* First Column - Icons */}
@@ -59,7 +59,7 @@ export default function Sidebar() {
         </div>
 
         {/* Second Column - Navigation */}
-        <div className="w-52 bg-gray-50 flex flex-col">
+        <div className="w-56 bg-gray-50 flex flex-col">
           {/* Brand Header */}
           <div className="flex items-center justify-between bg-white text-black p-3 rounded-t-md mb-6">
             <div className="flex gap-6 items-center py-2 px-5 border rounded-xl">
